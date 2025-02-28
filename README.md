@@ -42,17 +42,17 @@ const pronouns = "he/him";
 
 
 
-console.log(`👋 Hi, I’m @${username}`);
+console.log(`👋 Hi, I’m @${CodesbyRohit}`);
 
-console.log(`👀 I’m interested in ${interests.join(", ")}`);
+console.log(`👀 I’m interested in ${interests.join("All types of programming ")}`);
 
-console.log(`🌱 I’m currently learning ${learning}`);
+console.log(`🌱 I’m currently learning ${python}`);
 
-console.log(`💞️ I’m looking to collaborate on ${collaboration.type.join(", ")}`);
+console.log(`💞️ I’m looking to collaborate on ${collaboration.type.join("Anyone")}`);
 
-console.log(`📫 How to reach me: ${contact.instagram}`);
+console.log(`📫 How to reach me: ${www.instagram.com/peter3_rohit}`);
 
-console.log(`😄 Pronouns: ${pronouns}`);
+console.log(`😄 Pronouns: ${He/Him}`);
 
 
 
