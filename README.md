@@ -1,80 +1,19 @@
-# CodesbyRohit
-
-
-
-/**
-
- * @author CodesbyRohit
-
- * @version 1.0
-
- * @description GitHub profile README.md
-
- */
-
-
-
-## About Me
-
-
-
-```javascript
-
+# 👨‍💻 CodesbyRohit
 const username = "CodesbyRohit";
-
-const interests = ["Web Development", "Java", "Python"];
-
-let learning = "Python";
-
-const collaboration = {
-
-  type: ["Beginner-friendly projects", "Web applications"],
-
-};
-
-const contact = {
-
-  instagram: "[www.instagram.com/peter3_rohit](https://www.google.com/search?q=https://www.instagram.com/peter3_rohit)",
-
-};
-
 const pronouns = "he/him";
 
+const interests = [
+  "Web Development",
+  "Java",
+  "Python",
+  "Problem Solving",
+  "Learning C & C++"
+];
 
+let currentlyLearning = ["C", "C++", "Advanced Python"];
 
-console.log(`👋 Hi, I’m @${CodesbyRohit}`);
-
-console.log(`👀 I’m interested in ${interests.join("All types of programming ")}`);
-
-console.log(`🌱 I’m currently learning ${python}`);
-
-console.log(`💞️ I’m looking to collaborate on ${collaboration.type.join("Anyone")}`);
-
-console.log(`📫 How to reach me: ${www.instagram.com/peter3_rohit}`);
-
-console.log(`😄 Pronouns: ${He/Him}`);
-
-
-
-Fun Fact
-
-/**
-
- * @description A fun fact about the origin of the term "bug" in software.
-
- */
-
-function displayFunFact() {
-
-  const funFact = `The term "bug" to describe a software error came from a real bug! In 1947, Grace Hopper, a pioneer in computer science, discovered a moth stuck in the inner workings of a computer that was causing a malfunction. She jokingly referred to the issue as a "bug" and the term stuck!`;
-
-  console.log(`⚡ Fun fact: ${funFact}`);
-
-}
-
-
-
-displayFunFact();
-
-
-
+const openToCollaborateOn = [
+  "Beginner-friendly Projects",
+  "Web Apps",
+  "Open-source Contributions"
+];
