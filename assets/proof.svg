@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Proof of work — UrbanBreathe, verified 20 Oct 2026</title>
+  <desc id="d">npm test on main at 714a205: 150 tests, 150 pass, 0 fail. Lighthouse on the production site, three runs each: mobile performance 95 to 97, accessibility, best practices and SEO 100; desktop 100 in every category. Two identical requests to the Delhi air-quality API: CDN cache MISS then HIT with an unchanged retrievedAt timestamp.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151A18"/>
+      <stop offset="1" stop-color="#080B0A"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="958" height="298" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace; font-size: 15px; }
+    .p { fill: #00E59B; }          /* prompt */
+    .c { fill: #F4F7F5; }          /* command */
+    .k { fill: #6F7C77; }          /* comment */
+    .o { fill: #B8C3BE; }          /* output */
+    .ok { fill: #00E59B; }
+    .cursor { animation: blink 1.1s steps(1, end) infinite; }
+    /* Lines rest fully visible (0% and 100%); the sequence only clears and
+       replays them, so a frozen or non-animating render shows everything. */
+    .l1 { animation: l1 7s linear 0s 1 forwards; } .l2 { animation: l2 7s linear 0s 1 forwards; }
+    .l3 { animation: l3 7s linear 0s 1 forwards; } .l4 { animation: l4 7s linear 0s 1 forwards; }
+    .l5 { animation: l5 7s linear 0s 1 forwards; } .l6 { animation: l6 7s linear 0s 1 forwards; }
+    .l7 { animation: l7 7s linear 0s 1 forwards; }
+    @keyframes l1 { 0% { opacity: 1 } 1% { opacity: 0 } 6% { opacity: 0 } 7%, 100% { opacity: 1 } }
+    @keyframes l2 { 0% { opacity: 1 } 1% { opacity: 0 } 16% { opacity: 0 } 17%, 100% { opacity: 1 } }
+    @keyframes l3 { 0% { opacity: 1 } 1% { opacity: 0 } 30% { opacity: 0 } 31%, 100% { opacity: 1 } }
+    @keyframes l4 { 0% { opacity: 1 } 1% { opacity: 0 } 42% { opacity: 0 } 43%, 100% { opacity: 1 } }
+    @keyframes l5 { 0% { opacity: 1 } 1% { opacity: 0 } 48% { opacity: 0 } 49%, 100% { opacity: 1 } }
+    @keyframes l6 { 0% { opacity: 1 } 1% { opacity: 0 } 62% { opacity: 0 } 63%, 100% { opacity: 1 } }
+    @keyframes l7 { 0% { opacity: 1 } 1% { opacity: 0 } 74% { opacity: 0 } 75%, 100% { opacity: 1 } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .l1, .l2, .l3, .l4, .l5, .l6, .l7, .cursor { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="300" fill="url(#bg)"/>
+    <rect width="960" height="40" fill="#F4F7F5" opacity="0.03"/>
+    <rect y="40" width="960" height="1" fill="#B8C3BE" opacity="0.12"/>
+  </g>
+  <rect x="1" y="1" width="958" height="298" rx="14" fill="none" stroke="#B8C3BE" stroke-opacity="0.18"/>
+
+  <!-- title bar -->
+  <circle cx="26" cy="20" r="5" fill="#2A322F"/><circle cx="44" cy="20" r="5" fill="#2A322F"/><circle cx="62" cy="20" r="5" fill="#00E59B"/>
+  <text x="480" y="25" class="mono o" text-anchor="middle" font-size="13" letter-spacing="2">PROOF-OF-WORK · UrbanBreathe · VERIFIED 20 OCT 2026</text>
+
+  <g class="mono">
+    <text x="28" y="76" class="l1"><tspan class="p">$</tspan><tspan class="c"> npm test</tspan><tspan class="k" x="600"># main @ 714a205</tspan></text>
+    <text x="28" y="102" class="l2"><tspan class="ok">✔</tspan><tspan class="o"> tests 150 · pass 150 · fail 0</tspan></text>
+
+    <text x="28" y="140" class="l3"><tspan class="p">$</tspan><tspan class="c"> lighthouse urban-breathe-nine.vercel.app</tspan><tspan class="k" x="600"># production · 3 runs each</tspan></text>
+    <text x="48" y="166" class="l4"><tspan class="o">mobile</tspan><tspan class="o" x="128">performance </tspan><tspan class="ok">95–97</tspan><tspan class="o"> · accessibility </tspan><tspan class="ok">100</tspan><tspan class="o"> · best practices </tspan><tspan class="ok">100</tspan><tspan class="o"> · SEO </tspan><tspan class="ok">100</tspan></text>
+    <text x="48" y="190" class="l5"><tspan class="o">desktop</tspan><tspan class="o" x="128">performance </tspan><tspan class="ok">100</tspan><tspan class="o"> · accessibility </tspan><tspan class="ok">100</tspan><tspan class="o"> · best practices </tspan><tspan class="ok">100</tspan><tspan class="o"> · SEO </tspan><tspan class="ok">100</tspan></text>
+
+    <text x="28" y="228" class="l6"><tspan class="p">$</tspan><tspan class="c"> curl -sI /api/air-quality/delhi</tspan><tspan class="k" x="600"># same request, twice</tspan></text>
+    <text x="48" y="254" class="l7"><tspan class="o">x-vercel-cache: MISS → </tspan><tspan class="ok">HIT</tspan><tspan class="o"> · retrievedAt unchanged on the cache hit</tspan></text>
+
+    <text x="28" y="284"><tspan class="p">$</tspan><tspan class="ok cursor" dx="8">▍</tspan></text>
+  </g>
+</svg>
