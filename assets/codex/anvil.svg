@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-labelledby="title">
+  <title id="title">An iron anvil</title>
+  <g shape-rendering="crispEdges">
+    <path fill="#101510" d="M4 0h48v4h4v48h-4v4H4v-4H0V4h4z"/>
+    <path fill="none" stroke="#827452" stroke-width="2" d="M6 3h44v3h3v44h-3v3H6v-3H3V6h3z"/>
+    <path fill="#1a2821" d="M7 7h42v42H7z"/>
+    <g transform="translate(4 4)">
+      <path fill="#BFC5C3" d="M4 15h18v-5h21v9h-5v4H19v-2h-7v-2H7v-2H4z"/>
+      <path fill="#74827d" d="M10 19h31v3h-6v4h-5v5h5v4h4v3H13v-3h5v-4h4v-6h-5v-3h-4z"/>
+      <path fill="#B9A16B" d="M12 36h28v3H12zm13-24h15v2H25z"/>
+      <path fill="#50C878" d="M9 5h2v3h3v2h-3v3H9v-3H6V8h3z"/>
+    </g>
+  </g>
+</svg>

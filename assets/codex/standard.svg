@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-labelledby="title">
+  <title id="title">An emerald guild standard</title>
+  <g shape-rendering="crispEdges">
+    <path fill="#101510" d="M4 0h48v4h4v48h-4v4H4v-4H0V4h4z"/>
+    <path fill="none" stroke="#827452" stroke-width="2" d="M6 3h44v3h3v44h-3v3H6v-3H3V6h3z"/>
+    <path fill="#1a2821" d="M7 7h42v42H7z"/>
+    <g transform="translate(4 4)">
+      <path fill="#B9A16B" d="M9 9h31v4H9zm1 0 4-5 4 5-4 5zM12 12h4v27h-4z"/>
+      <path fill="#174B32" d="M18 13h19v19h-4v4h-3v3h-6v-3h-3v-4h-3z"/>
+      <path fill="#50C878" d="M20 14h2v17h-2zm5 4h5v3h3v4h-3v3h-5v-3h-3v-4h3z"/>
+      <path fill="#dcc89a" d="M26 21h3v4h-3z"/>
+    </g>
+  </g>
+</svg>

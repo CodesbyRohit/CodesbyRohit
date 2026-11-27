@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title description">
+  <title id="title">Rohit's contribution atlas · 23 Aug 2026 – 21 Nov 2026</title>
+  <desc id="description">321 GitHub contributions on 34 of 91 days. Each tile represents one day. Weeks run down-right and Sundays through Saturdays run down-left. Terrain ranges are shown in the key.</desc>
+  <defs>
+    <pattern id="paper" width="16" height="16" patternUnits="userSpaceOnUse"><path fill="#19231b" d="M2 3h1v1H2zm8 8h2v1h-2z"/></pattern>
+    <g id="ground">
+      <path fill="#17241c" d="m-34 0 34 14 34-14v7L0 21-34 7z"/>
+      <path fill="#324934" d="M0 14 34 0v7L0 21z"/>
+      <path fill="#354737" stroke="#66735a" stroke-width=".8" d="M0-14 34 0 0 14-34 0z"/>
+    </g>
+    <g id="moor"><use href="#ground"/><path fill="#6c785c" d="M-12 1h3v-2h1v3h-4zm17-5h4v1H5zm6 9h2v1h-2z"/></g>
+    <g id="grove">
+      <use href="#ground"/>
+      <path fill="#795e39" d="M-7-8h4v11h-4zM8-3h3v8H8z"/>
+      <path fill="#174B32" stroke="#10291c" d="m-5-25 7 10h-3l6 8H1l4 5h-20l5-6h-3l6-8h-3zm14 12 6 7h-3l5 7H2l4-7H4z"/>
+      <path fill="#50C878" d="m-5-23 1 6-5 3zm-2 12h4l-5 6h-4zm16 0v5L5-3z"/>
+    </g>
+    <g id="village">
+      <use href="#ground"/>
+      <path fill="#c9b581" d="m-15-9 15 6v14l-15-6z"/><path fill="#897751" d="m0-3 15-6V5L0 11z"/>
+      <path fill="#327551" d="m-18-9 7-13 18 7L0-2z"/><path fill="#174B32" d="m0-2 7-13 11 6z"/>
+      <path fill="#101510" d="M-12-5l3 1v4l-3-1zm6 6 4 1v7l-4-2z"/><path fill="#ddc68b" d="m5-2 4-2v5L5 3z"/>
+    </g>
+    <g id="tower">
+      <use href="#ground"/>
+      <path fill="#9aa99b" d="m-9-23 10 4V8L-9 4z"/><path fill="#617b70" d="m1-19 10-4V4L1 8z"/>
+      <path fill="#BFC5C3" d="m-12-25 13-5 13 5-13 6z"/><path fill="#40594b" d="m-12-25 13 6 13-6v5L1-14l-13-5z"/>
+      <path fill="#e7d292" d="M0-31h2v-13H0z"/><path fill="#50C878" d="M2-43h10l-3 3 2 2H2z"/>
+      <path fill="#17251f" d="m-6-12 3 1v5l-3-1zm9 10 4-2v7L3 5z"/>
+    </g>
+    <g id="keep">
+      <use href="#ground"/>
+      <path fill="#B9A16B" d="m-18-17 18 7v18l-18-7z"/><path fill="#958357" d="m0-10 17-7V2L0 9z"/>
+      <path fill="#dbc795" d="m-20-19 19-7 20 7-19 8z"/>
+      <path fill="#BFC5C3" d="M-19-29h8v19h-8zm14-9H5v22H-5zm15 9h9v19h-9z"/>
+      <path fill="#317a50" d="m-21-29 6-9 6 9zm14-9 7-12 7 12zm15 9 7-9 6 9z"/>
+      <path fill="#f3d78d" d="M0-49v-11h2v2h11l-4 3 3 2H2v4z"/>
+      <path fill="#192a21" d="M-8-7h5V5l-5-2zm21-17h2v4h-2zm-30 0h2v4h-2z"/>
+    </g>
+  </defs>
+  <rect width="960" height="420" fill="#101510"/><rect width="960" height="420" fill="url(#paper)"/>
+  <path fill="none" stroke="#766948" d="M17 9h926v7h8v388h-8v7H17v-7H9V16h8zM755 32v355"/>
+  <g font-family="Georgia,serif">
+    <text x="36" y="49" fill="#ebdfbf" font-size="30">The contribution atlas</text>
+    <text x="37" y="77" fill="#BFC5C3" font-size="17">23 Aug 2026 – 21 Nov 2026</text>
+    <text x="782" y="93" fill="#e8d198" font-size="48">321</text>
+  </g>
+  <g font-family="system-ui,sans-serif" fill="#BFC5C3">
+    <text x="784" y="47" fill="#B9A16B" font-size="14" letter-spacing="1.8">CONTRIBUTIONS</text>
+    <text x="785" y="116" font-size="15">34 active days</text>
+    <path stroke="#665b42" d="M782 136h145"/>
+    <use href="#moor" transform="translate(803 175) scale(.55)"/><text x="833" y="172" fill="#e6dab9" font-size="17">Moor</text><text x="834" y="189" font-size="13">0</text>
+    <use href="#grove" transform="translate(803 222) scale(.55)"/><text x="833" y="219" fill="#e6dab9" font-size="17">Grove</text><text x="834" y="236" font-size="13">1–3</text>
+    <use href="#village" transform="translate(803 269) scale(.55)"/><text x="833" y="266" fill="#e6dab9" font-size="17">Village</text><text x="834" y="283" font-size="13">4–9</text>
+    <use href="#tower" transform="translate(803 316) scale(.55)"/><text x="833" y="313" fill="#e6dab9" font-size="17">Tower</text><text x="834" y="330" font-size="13">10–19</text>
+    <use href="#keep" transform="translate(803 363) scale(.55)"/><text x="833" y="360" fill="#e6dab9" font-size="17">Keep</text><text x="834" y="377" font-size="13">20+</text>
+    <text x="36" y="391" font-size="16">One tile per day</text>
+    <text x="729" y="391" text-anchor="end" fill="#B9A16B" font-size="16">13 weeks</text>
+  </g>
+  <!-- North corner is the first Sunday. Draw from back to front. -->
+  <g transform="translate(293 104)"><title>2026-08-23 · 9</title><use href="#village"/></g>
+  <g transform="translate(259 118)"><title>2026-08-24 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 118)"><title>2026-08-30 · 0</title><use href="#moor"/></g>
+  <g transform="translate(225 132)"><title>2026-08-25 · 0</title><use href="#moor"/></g>
+  <g transform="translate(293 132)"><title>2026-08-31 · 0</title><use href="#moor"/></g>
+  <g transform="translate(361 132)"><title>2026-09-06 · 29</title><use href="#keep"/></g>
+  <g transform="translate(191 146)"><title>2026-08-26 · 5</title><use href="#village"/></g>
+  <g transform="translate(259 146)"><title>2026-09-01 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 146)"><title>2026-09-07 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 146)"><title>2026-09-13 · 3</title><use href="#grove"/></g>
+  <g transform="translate(157 160)"><title>2026-08-27 · 2</title><use href="#grove"/></g>
+  <g transform="translate(225 160)"><title>2026-09-02 · 0</title><use href="#moor"/></g>
+  <g transform="translate(293 160)"><title>2026-09-08 · 0</title><use href="#moor"/></g>
+  <g transform="translate(361 160)"><title>2026-09-14 · 0</title><use href="#moor"/></g>
+  <g transform="translate(429 160)"><title>2026-09-20 · 3</title><use href="#grove"/></g>
+  <g transform="translate(123 174)"><title>2026-08-28 · 4</title><use href="#village"/></g>
+  <g transform="translate(191 174)"><title>2026-09-03 · 0</title><use href="#moor"/></g>
+  <g transform="translate(259 174)"><title>2026-09-09 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 174)"><title>2026-09-15 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 174)"><title>2026-09-21 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 174)"><title>2026-09-27 · 0</title><use href="#moor"/></g>
+  <g transform="translate(89 188)"><title>2026-08-29 · 0</title><use href="#moor"/></g>
+  <g transform="translate(157 188)"><title>2026-09-04 · 2</title><use href="#grove"/></g>
+  <g transform="translate(225 188)"><title>2026-09-10 · 0</title><use href="#moor"/></g>
+  <g transform="translate(293 188)"><title>2026-09-16 · 0</title><use href="#moor"/></g>
+  <g transform="translate(361 188)"><title>2026-09-22 · 0</title><use href="#moor"/></g>
+  <g transform="translate(429 188)"><title>2026-09-28 · 1</title><use href="#grove"/></g>
+  <g transform="translate(497 188)"><title>2026-10-04 · 13</title><use href="#tower"/></g>
+  <g transform="translate(123 202)"><title>2026-09-05 · 0</title><use href="#moor"/></g>
+  <g transform="translate(191 202)"><title>2026-09-11 · 0</title><use href="#moor"/></g>
+  <g transform="translate(259 202)"><title>2026-09-17 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 202)"><title>2026-09-23 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 202)"><title>2026-09-29 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 202)"><title>2026-10-05 · 6</title><use href="#village"/></g>
+  <g transform="translate(531 202)"><title>2026-10-11 · 24</title><use href="#keep"/></g>
+  <g transform="translate(157 216)"><title>2026-09-12 · 2</title><use href="#grove"/></g>
+  <g transform="translate(225 216)"><title>2026-09-18 · 4</title><use href="#village"/></g>
+  <g transform="translate(293 216)"><title>2026-09-24 · 0</title><use href="#moor"/></g>
+  <g transform="translate(361 216)"><title>2026-09-30 · 0</title><use href="#moor"/></g>
+  <g transform="translate(429 216)"><title>2026-10-06 · 0</title><use href="#moor"/></g>
+  <g transform="translate(497 216)"><title>2026-10-12 · 7</title><use href="#village"/></g>
+  <g transform="translate(565 216)"><title>2026-10-18 · 0</title><use href="#moor"/></g>
+  <g transform="translate(191 230)"><title>2026-09-19 · 0</title><use href="#moor"/></g>
+  <g transform="translate(259 230)"><title>2026-09-25 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 230)"><title>2026-10-01 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 230)"><title>2026-10-07 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 230)"><title>2026-10-13 · 6</title><use href="#village"/></g>
+  <g transform="translate(531 230)"><title>2026-10-19 · 3</title><use href="#grove"/></g>
+  <g transform="translate(599 230)"><title>2026-10-25 · 20</title><use href="#keep"/></g>
+  <g transform="translate(225 244)"><title>2026-09-26 · 4</title><use href="#village"/></g>
+  <g transform="translate(293 244)"><title>2026-10-02 · 5</title><use href="#village"/></g>
+  <g transform="translate(361 244)"><title>2026-10-08 · 7</title><use href="#village"/></g>
+  <g transform="translate(429 244)"><title>2026-10-14 · 8</title><use href="#village"/></g>
+  <g transform="translate(497 244)"><title>2026-10-20 · 28</title><use href="#keep"/></g>
+  <g transform="translate(565 244)"><title>2026-10-26 · 41</title><use href="#keep"/></g>
+  <g transform="translate(633 244)"><title>2026-11-01 · 0</title><use href="#moor"/></g>
+  <g transform="translate(259 258)"><title>2026-10-03 · 8</title><use href="#village"/></g>
+  <g transform="translate(327 258)"><title>2026-10-09 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 258)"><title>2026-10-15 · 2</title><use href="#grove"/></g>
+  <g transform="translate(463 258)"><title>2026-10-21 · 3</title><use href="#grove"/></g>
+  <g transform="translate(531 258)"><title>2026-10-27 · 0</title><use href="#moor"/></g>
+  <g transform="translate(599 258)"><title>2026-11-02 · 0</title><use href="#moor"/></g>
+  <g transform="translate(667 258)"><title>2026-11-08 · 0</title><use href="#moor"/></g>
+  <g transform="translate(293 272)"><title>2026-10-10 · 4</title><use href="#village"/></g>
+  <g transform="translate(361 272)"><title>2026-10-16 · 4</title><use href="#village"/></g>
+  <g transform="translate(429 272)"><title>2026-10-22 · 25</title><use href="#keep"/></g>
+  <g transform="translate(497 272)"><title>2026-10-28 · 0</title><use href="#moor"/></g>
+  <g transform="translate(565 272)"><title>2026-11-03 · 0</title><use href="#moor"/></g>
+  <g transform="translate(633 272)"><title>2026-11-09 · 0</title><use href="#moor"/></g>
+  <g transform="translate(701 272)"><title>2026-11-15 · 0</title><use href="#moor"/></g>
+  <g transform="translate(327 286)"><title>2026-10-17 · 2</title><use href="#grove"/></g>
+  <g transform="translate(395 286)"><title>2026-10-23 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 286)"><title>2026-10-29 · 0</title><use href="#moor"/></g>
+  <g transform="translate(531 286)"><title>2026-11-04 · 0</title><use href="#moor"/></g>
+  <g transform="translate(599 286)"><title>2026-11-10 · 0</title><use href="#moor"/></g>
+  <g transform="translate(667 286)"><title>2026-11-16 · 0</title><use href="#moor"/></g>
+  <g transform="translate(361 300)"><title>2026-10-24 · 1</title><use href="#grove"/></g>
+  <g transform="translate(429 300)"><title>2026-10-30 · 0</title><use href="#moor"/></g>
+  <g transform="translate(497 300)"><title>2026-11-05 · 0</title><use href="#moor"/></g>
+  <g transform="translate(565 300)"><title>2026-11-11 · 0</title><use href="#moor"/></g>
+  <g transform="translate(633 300)"><title>2026-11-17 · 0</title><use href="#moor"/></g>
+  <g transform="translate(395 314)"><title>2026-10-31 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 314)"><title>2026-11-06 · 33</title><use href="#keep"/></g>
+  <g transform="translate(531 314)"><title>2026-11-12 · 0</title><use href="#moor"/></g>
+  <g transform="translate(599 314)"><title>2026-11-18 · 0</title><use href="#moor"/></g>
+  <g transform="translate(429 328)"><title>2026-11-07 · 0</title><use href="#moor"/></g>
+  <g transform="translate(497 328)"><title>2026-11-13 · 0</title><use href="#moor"/></g>
+  <g transform="translate(565 328)"><title>2026-11-19 · 0</title><use href="#moor"/></g>
+  <g transform="translate(463 342)"><title>2026-11-14 · 3</title><use href="#grove"/></g>
+  <g transform="translate(531 342)"><title>2026-11-20 · 0</title><use href="#moor"/></g>
+  <g transform="translate(497 356)"><title>2026-11-21 · 0</title><use href="#moor"/></g>
+  <g fill="none" stroke="#B9A16B" opacity=".7">
+    <path d="m91 137 8-18 8 18-8-4z M99 133v14m-12-8h24"/>
+    <path d="m635 110 44 18m-4-8 4 8-12 1"/>
+    <path d="m116 304-44 18m5-8-5 8 12 1"/>
+  </g>
+  <g font-family="Georgia,serif" font-style="italic" fill="#B9A16B" font-size="17">
+    <text x="99" y="114" text-anchor="middle">N</text>
+    <text x="631" y="101">Weeks</text><text x="93" y="343">Days</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img" aria-labelledby="title">
+  <title id="title">The Sovereign Codex · Rohit Srivastava</title>
+  <style>
+    text {font-family: Georgia, 'Liberation Serif', serif}
+    .name {font-family: Georgia, 'Liberation Serif', serif; font-weight: bold; letter-spacing: 2.8px; fill: #e7d4a1}
+    .compact {display:none}
+    @media(max-width:700px){.wide{display:none}.compact{display:inline}}
+  </style>
+  <defs>
+    <g id="corner" fill="none" stroke="#B9A16B" stroke-width="2">
+      <path d="M0 31V8h8V0h31 M5 30V14h9V5h16"/>
+      <path fill="#B9A16B" d="m17 17 3-3 3 3-3 3z"/>
+    </g>
+  </defs>
+  <svg class="wide" width="100%" height="100%" viewBox="0 0 1200 400">
+    <image href="citadel.png" width="1200" height="400"/>
+    <rect x="12" y="12" width="1176" height="376" fill="none" stroke="#B9A16B" opacity=".6"/>
+    <use href="#corner" transform="translate(11 11)"/><use href="#corner" transform="translate(1189 11) rotate(90)"/>
+    <use href="#corner" transform="translate(1189 389) rotate(180)"/><use href="#corner" transform="translate(11 389) rotate(270)"/>
+    <image href="../assets/codex/seal.svg" x="52" y="49" width="46" height="52"/>
+    <text class="name" x="114" y="81" font-size="19">ROHIT SRIVASTAVA</text>
+    <text x="51" y="188" fill="#f4ebd8" font-size="75">The Sovereign</text>
+    <text x="49" y="275" fill="#e4cf91" font-size="105" font-style="italic">Codex</text>
+    <path d="M55 312h92m16 0h41" fill="none" stroke="#B9A16B" stroke-width="2"/>
+    <path d="m151 312 4-4 4 4-4 4z" fill="#50C878"/>
+    <text x="54" y="350" fill="#e8e3d4" font-size="22">Engineering with evidence.</text>
+  </svg>
+  <svg class="compact" width="100%" height="100%" viewBox="0 0 600 298">
+    <rect width="600" height="298" fill="#101510"/>
+    <image href="citadel.png" width="600" height="181" preserveAspectRatio="xMaxYMid slice"/>
+    <path d="M0 182h600" stroke="#B9A16B" stroke-width="3"/>
+    <image href="../assets/codex/seal.svg" x="27" y="202" width="65" height="74"/>
+    <text class="name" x="111" y="228" font-size="18">ROHIT SRIVASTAVA</text>
+    <text x="108" y="273" font-size="44" fill="#f4ebd8">The Sovereign <tspan font-style="italic" fill="#e4cf91">Codex</tspan></text>
+    <rect x="6" y="6" width="588" height="286" fill="none" stroke="#B9A16B" opacity=".7"/>
+  </svg>
+</svg>

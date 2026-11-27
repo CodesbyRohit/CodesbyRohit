@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-labelledby="title">
+  <title id="title">A bound iron coffer</title>
+  <g shape-rendering="crispEdges">
+    <path fill="#101510" d="M4 0h48v4h4v48h-4v4H4v-4H0V4h4z"/>
+    <path fill="none" stroke="#827452" stroke-width="2" d="M6 3h44v3h3v44h-3v3H6v-3H3V6h3z"/>
+    <path fill="#1a2821" d="M7 7h42v42H7z"/>
+    <g transform="translate(4 4)">
+      <path fill="#788581" d="M7 13h3v-4h28v4h3v4h2v20H5V17h2z"/>
+      <path fill="#174B32" d="M9 16h30v7H9zm0 10h30v8H9z"/>
+      <path fill="#50C878" d="M11 13h24v2H11z"/>
+      <path fill="#B9A16B" d="M11 12h4v23h-4zm22 0h4v23h-4zM5 22h38v3H5z"/>
+      <path fill="#e5d3a6" d="M20 20h9v9h-9z"/>
+      <path fill="#464538" d="M23 22h3v4h-3z"/>
+    </g>
+  </g>
+</svg>

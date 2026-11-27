@@ -1,0 +1,38 @@
+name: Contribution atlas
+on:
+  pull_request:
+    paths: ["README.md", "data/contributions.csv", "art/atlas.svg", "assets/codex/kingdom.svg", "scripts/atlas.py", ".github/workflows/atlas.yml"]
+  push:
+    paths: ["README.md", "data/contributions.csv", "art/atlas.svg", "assets/codex/kingdom.svg", "scripts/atlas.py", ".github/workflows/atlas.yml"]
+  workflow_dispatch:
+  schedule:
+    - cron: "37 6 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  atlas:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Rebuild and compare the checked-in atlas
+        run: python3 scripts/atlas.py --check
+      - name: Prepare a fresh snapshot for review
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          python3 scripts/atlas.py --refresh
+          python3 scripts/atlas.py --check
+      - name: Save the calendar and map as a review artifact
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: contribution-atlas
+          path: |
+            data/contributions.csv
+            assets/codex/kingdom.svg
+          if-no-files-found: error
+          retention-days: 14

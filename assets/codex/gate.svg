@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 66" role="img" aria-labelledby="title">
+  <title id="title">Colophon with an emerald gate set in obsidian</title>
+  <g shape-rendering="crispEdges">
+    <path fill="#B9A16B" d="M2 39h172v2H2zm304 0h172v2H306zM179 40l4-4 4 4-4 4zm114 0 4-4 4 4-4 4z"/>
+    <path fill="#174B32" d="M191 36h11v-4h7v-4h7v18h-25zm98 0h-11v-4h-7v-4h-7v18h25z"/>
+    <path fill="#101510" stroke="#B9A16B" stroke-width="2" d="M210 51V25h5v-9h7v-6h8V5h8V2h4v3h8v5h8v6h7v9h5v26h6v6h-72v-6z"/>
+    <path fill="#53635a" d="M216 49V26h5v-8h7v-5h7V9h10v4h7v5h7v8h5v23h-7V29h-5v-8h-7v-5h-10v5h-7v8h-5v20z"/>
+    <path fill="#174B32" d="M226 49V30h5v-8h6v-5h6v5h6v8h5v19z"/>
+    <path fill="#50C878" d="M231 47V32h3v-7h3v-4h3v5h-3v7h-3v14zm14-15h2v4h-2zm-7 10h2v2h-2z"/>
+    <path fill="#78867c" d="M214 51h52v3h-52zm-7 6h66v3h-66z"/>
+    <path fill="#B9A16B" d="M216 28h6v2h-6zm42 4h6v2h-6zm-23-20h10v2h-10z"/>
+  </g>
+</svg>
